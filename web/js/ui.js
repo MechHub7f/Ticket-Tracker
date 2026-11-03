@@ -3,11 +3,11 @@
 const UI = {
   esc(value) {
     return String(value ?? "")
-      .replaceAll("&", "&")
-      .replaceAll("<", "<")
-      .replaceAll(">", ">")
-      .replaceAll('"', """)
-      .replaceAll("'", "&#39;");
+      .replaceAll("&", "&" + "amp;")
+      .replaceAll("<", "&" + "lt;")
+      .replaceAll(">", "&" + "gt;")
+      .replaceAll('"', "&" + "quot;")
+      .replaceAll("'", "&" + "#39;");
   },
 
   toast(message, kind = "") {
