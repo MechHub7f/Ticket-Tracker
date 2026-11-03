@@ -61,7 +61,7 @@ const LoginView = {
             password: container.querySelector("#li-pass").value,
           });
         }
-        await App.boot();
+        await App.start();
       } catch (err) {
         UI.toast(err.message, "error");
         button.disabled = false;
