@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#174a86"/>
+  <g fill="#ffffff">
+    <!-- fork -->
+    <rect x="150" y="120" width="22" height="270" rx="11"/>
+    <rect x="118" y="120" width="22" height="90" rx="11"/>
+    <rect x="182" y="120" width="22" height="90" rx="11"/>
+    <rect x="150" y="120" width="22" height="90" rx="11"/>
+    <!-- knife -->
+    <rect x="330" y="120" width="24" height="270" rx="12"/>
+    <path d="M330 120 h56 a28 28 0 0 1 -28 28 v120 h-28 z" opacity="0.85"/>
+    <!-- ticket -->
+    <rect x="196" y="240" width="120" height="72" rx="14" opacity="0.9"/>
+    <rect x="216" y="264" width="80" height="10" rx="5" fill="#174a86"/>
+    <rect x="216" y="284" width="56" height="10" rx="5" fill="#174a86"/>
+  </g>
+</svg>
